@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export function TwitterFollowCard ({ userName, children }) {
+export function TwitterFollowCard ({ userName, children, initialIsFollowing }) {
 
     /*
         const state = useState(false)
@@ -8,7 +8,7 @@ export function TwitterFollowCard ({ userName, children }) {
         const setIsFollowing = state[1]
         Same as:
     */
-    const [isFollowing, setIsFollowing] = useState(false)
+    const [isFollowing, setIsFollowing] = useState(initialIsFollowing)
     
     const handleClick = () => {
         setIsFollowing(!isFollowing)

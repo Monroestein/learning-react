@@ -20,7 +20,7 @@ export function App (){
                 Miguel Angel Duran
             </TwitterFollowCard>
 
-            <TwitterFollowCard userName="ivan_baeza"> Ivan Baeza </TwitterFollowCard>
+            <TwitterFollowCard userName="ivan_baeza" initialIsFollowing={true}> Ivan Baeza </TwitterFollowCard>
             <TwitterFollowCard userName="playstation"> PlayStation </TwitterFollowCard>
 
         </section>
